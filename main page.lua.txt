@@ -1,8 +1,3 @@
---// TYPES \\--
---[[ export type LikelyBackdoor = RemoteEvent|RemoteFunction;
-export type MakeDummy = (LikelyBackdoor, string) -> nil;
-export type ExecuteBackdoor = (BackdoorGateway, ...any) -> any;
-
 -- @BackdoorSolver
 -- Solvers allow us to provide a maintanable way of
 -- adding new backdoors detections and executions.
